@@ -59,25 +59,15 @@ password3 = "uhqj rojl svve sdun"
 mail_subject3 = "Comme c'est dommage..."
 mail_body3 = """<html>
 <body>
-    <p>Alala... chère Mme KALLOGA...</p><br>
-    <p>Que dirait votre ville si elle apprenait que les fonds supposés être donnés aux <b>collectes de dons sont en fait versés sur votre propre compte ?</b></p>
-    <p><b>Un contrat avec Lactel et votre relevé de facture...</b> Votre dossier n'est pas si confidentiel que ça...</p>
-    <p>Pas de panique, vos informations sont bien au chaud avec moi.</p>
-    <p>Il vous suffira simplement de m'envoyer une rançon en crypto-monnaie.</p><br>
-    <p><b>Modalités de paiement :</b></p>
-    <ul>
-        <li>Montant : 0.5 Bitcoin (BTC)</li>
-        <li>Adresse du portefeuille : <code>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</code></li>
-        <li>Envoyez le paiement sous 48 heures pour éviter toute fuite.</li>
-    </ul><br>
-    <p>Ne me faites pas trop patienter...</p>
-    <p>Portez-vous bien,</p>
+    <p>Bonjour Mme KALLOGA,</p><br>
+    <p>Merci pour votre coopération.</p>
+    <p>Un conseil : à l'avenir, veillez à sécuriser davantage vos données... ou à éviter des pratiques douteuses qui attireraient l'attention.</p>
+    <p>Bonne continuation,</p>
     <br>
     <hr>
     <p style='font-size:12px; color:gray;'>
-    <s>Nauria MATHYS</s>
-    <s>Secrétaire du Mairie de la ville de Sannois</s>
-        <i>Votre Scammer.</i><br>
+    <s>Secrétaire du Mairie de la ville de Sannois</s><br>
+        <i>Votre Sauveur.</i>
     </p>
 </body>
 </html>"""
@@ -87,7 +77,7 @@ def choose_and_send_mail():
     print("Quel mail souhaitez-vous envoyer ?")
     print("1. Premier mail (Fake pour inciter à cliquer)")
     print("2. Deuxième mail (Début de l'attaque)")
-    print("3. Troisième mail (Echange après rançon)")
+    print("3. Troisième mail (La transaction a été faite avec succès. Voulez-vous renvoyer le fichier décrypté ?)")
     choix = input("Entrez 1, 2 ou 3 : ")
 
     if choix == "1":
