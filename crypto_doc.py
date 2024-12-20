@@ -3,24 +3,20 @@ from Crypto.Util.Padding import pad
 from Crypto.Random import get_random_bytes
 import os
 
-# Créer un fichier key.bin
 key_file = "key.bin"
 if not os.path.exists(key_file):
     with open(key_file, "wb") as f:
-        # Générer une clé AES de 256 bits
         key = get_random_bytes(32)
         f.write(key)
 else:
     with open(key_file, "rb") as f:
         key = f.read()
 
-# Chiffrement du message
 def encrypt_message(message, key):
     cipher = AES.new(key, AES.MODE_CBC)
     ciphertext = cipher.encrypt(pad(message, AES.block_size))
     return cipher.iv + ciphertext
 
-# Dossier à traiter
 dossier = "./dossier_confidentiel"
 if not os.path.exists(dossier):
     os.makedirs(dossier)
