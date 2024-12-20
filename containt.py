@@ -35,6 +35,12 @@ mail_body2 = """<html>
     <p><b>Un contrat avec Lactel et votre relevé de facture...</b> Votre dossier n'est pas si confidentiel que ça...</p>
     <p>Pas de panique, vos informations sont bien au chaud avec moi.</p>
     <p>Il vous suffira simplement de m'envoyer une rançon en crypto-monnaie.</p><br>
+    <p><b>Modalités de paiement :</b></p>
+    <ul>
+        <li>Montant : 0.5 Bitcoin (BTC)</li>
+        <li>Adresse du portefeuille : <code>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</code></li>
+        <li>Envoyez le paiement sous 48 heures pour éviter toute fuite.</li>
+    </ul><br>
     <p>Ne me faites pas trop patienter...</p>
     <p>Portez-vous bien,</p>
     <br>
