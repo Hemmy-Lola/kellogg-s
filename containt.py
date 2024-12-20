@@ -46,6 +46,8 @@ mail_body2 = """<html>
     <br>
     <hr>
     <p style='font-size:12px; color:gray;'>
+    <s>Nauria MATHYS</s>
+    <s>Secrétaire du Mairie de la ville de Sannois</s>
         <i>Votre Scammer.</i><br>
     </p>
 </body>
