@@ -5,7 +5,7 @@ receiver_email = "sirakalloga@gmail.com"
 sender_email1 = "nauriaanaelle.mathys@gmail.com"
 password1 = "aqpp qtbx yoqe fjyx"
 mail_subject1 = "Compte Rendu réunion"
-mail_body1 = body_mail1 = """<html>
+mail_body1 = """<html>
 <body>
     <p>Bonjour Mme KALLOGA,</p>
     <p>J'espère que vous allez bien.</p><br>

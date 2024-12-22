@@ -23,6 +23,9 @@ Dans le cadre d’un projet de groupe, nous avons imaginé un scénario immersif
 3. **Décryptage des données**  
    - Fourniture d’une clé secrète permettant de restaurer les données après paiement fictif.  
 
+4. **Zipper le dossier confidentiel**  
+   - Après avoir decrypté les deux fichiers, les intégrer dans un dossier "dossier_confidentiel" zippé 
+
 ---
 
 ## ⚙️ **Stack Technique**
@@ -50,4 +53,4 @@ Ce projet est strictement éducatif. Il a été conçu pour comprendre les méca
 ## 🧠 **Leçons Apprises**
 - Comprendre les bases du cryptage AES et de la gestion des clés.  
 - Simuler une interaction réaliste entre un hacker et une victime.  
-- Renforcer l’importance de la sécurité informatique dans les systèmes municipaux.  
+- Renforcer l’importance de la sécurité informatique dans les systèmes municipaux.
